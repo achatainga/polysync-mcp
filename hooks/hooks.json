@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": {
+        "tool": "run_command",
+        "pattern": "git\\s+(commit|push)"
+      },
+      "action": {
+        "type": "verify_cross_repo_type_sync",
+        "instruction": "Verify that backend model modifications (Python/Go) have synchronized TypeScript/React client interfaces before allowing commit/push."
+      }
+    }
+  ]
+}
