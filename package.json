@@ -1,0 +1,26 @@
+{
+  "name": "@achatainga/polysync-mcp",
+  "version": "1.0.1",
+  "description": "Multi-Repo Cross-Language AST Type Synchronizer & Boundary Enforcer for Autonomous Coding Agents",
+  "type": "module",
+  "main": "src/engine.mjs",
+  "scripts": {
+    "test": "node tests/run_live_test.mjs"
+  },
+  "author": "Alejandro Chataing <a.chataing.a@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achatainga/polysync-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "developer-tools",
+    "guardrails"
+  ],
+  "bin": {
+    "polysync-mcp": "./bin/cli.mjs"
+  }
+}
