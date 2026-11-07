@@ -1,5 +1,5 @@
 ---
-name: polysync-mcp
+name: polysync
 description: Multi-Repo Cross-Language AST Type Synchronizer & Boundary Enforcer for Autonomous Coding Agents.
 version: 1.0.0
 tags:
